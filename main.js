@@ -7,7 +7,7 @@ const restartButton = document.querySelector("#restart-button");
 //gameboard module
 const GameBoard = (function () {
     const boardSize = 3 * 3;
-    
+
     let gameboard = [];
     for (let i = 0; i < boardSize; i++) {
         gameboard.push("");
@@ -184,3 +184,6 @@ function winHandler(board) {
         }
     }
 }
+
+startButton.addEventListener("click", GameController.startGame);
+restartButton.addEventListener("click", GameController.restartGame);

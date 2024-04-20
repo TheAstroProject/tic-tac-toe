@@ -25,7 +25,7 @@ svg {
 }
 
 body {
-    background-color: #1a2b33;
+    background-color: #3C5B6F;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -62,11 +62,11 @@ body {
 }
 
 .board-x {
-    color: #f2b138;
+    color: #DFD0B8;
 }
 
 .board-o {
-    columns: #34a9db;
+    columns: #948979;
 }
 
 .restart {
@@ -114,7 +114,7 @@ body {
 #start-button,
 #restart-button {
     cursor: pointer;
-    background-color: #f2b138;
+    background-color: #B3C8CF;
     font-size: 1rem;
     min-width: 150px;
     padding: 0.8rem 1.4rem;
@@ -127,6 +127,6 @@ body {
 }
 
 .winner {
-    background-color: #f2b138;
+    background-color: #B3C8CF;
     color: #1e3640;
 }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe | Astro.Dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <h1 class="main-heading">Tic Tac Toe</h1>
+    <div id="gameboard"></div>
+    <div class="restart">
+        <button id="restart-button" class="hidden">Restart Game</button>
+    </div>
+
+    <div class="controls">
+        <div class="player1-controls">
+            <label for="player1">Player 1:</label>
+            <input 
+            type="text"
+            id="player1"
+            name="player1"
+            placeholder="Name"
+            required
+            />
+        </div>
+
+        <div class="player2-controls">
+            <label for="player2">Player 2:</label>
+            <input 
+            type="text"
+            id="player2"
+            name="player2"
+            placeholder="Name"
+            required
+            />
+        </div>
+
+        <button type="submit" id="start-button">Start Game</button>
+    </div>
+    
+</body>
+</html>
